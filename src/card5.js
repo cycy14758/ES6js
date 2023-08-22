@@ -4,20 +4,20 @@ import Card from 'react-bootstrap/Card';
 import photo  from'./téléchargement.png';
 import  arr from './prodacte';
 
-function card() {
+function card5() {
   return (
     <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="https://www.scoop.com.tn/36595-thickbox_default/pc-portable-apple-macbook-air-apple-m1-8go-256go-ssd-ecran-retina-13-grey.jpg"/>
+    <Card.Img variant="top" src="https://www.istore.com.tn/4117-large_default/macbook-pro-13-pouces-puce-m1-8-go-256-go-couleur-gris-sideral.jpg"/>
     <Card.Body>
-      <Card.Title>{arr[0].name}</Card.Title>
+      <Card.Title>{arr[4].name}</Card.Title>
       <Card.Text>
-      {arr[0].description}
+      {arr[4].description}.
       </Card.Text>
-      <h2>{arr[0].price}</h2>
+      <h2>{arr[4].price}</h2>
       <Button variant="primary">ajouter</Button>
     </Card.Body>
   </Card>
   )
 }
 
-export default card
+export default card5
